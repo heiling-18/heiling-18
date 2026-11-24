@@ -1,6 +1,6 @@
 # Hola, soy Heiling León 👋
 
-Desarrollo de software junior. Construyo aplicaciones web y backend con **Java / Spring Boot** y **Next.js / TypeScript**, bases de datos en **MySQL y PostgreSQL**, y automatizaciones con **n8n**.
+Desarrolladora de software junior. Construyo aplicaciones web y backend con **Java / Spring Boot** y **Next.js / TypeScript**, bases de datos en **MySQL y PostgreSQL**, y automatizaciones con **n8n**.
 
 🔗 **Portafolio:** https://moonlit-marshmallow-24aee0.netlify.app/
 
