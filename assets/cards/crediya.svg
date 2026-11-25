@@ -15,7 +15,7 @@
 <text x="104" y="58" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="800" fill="#E9E5F5">CrediYa</text>
 <text x="104" y="82" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" fill="#FB923C">ver repositorio ↗</text>
 <text x="30" y="126" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#CFC7E3">Sistema de préstamos y cobranzas con programación</text>
-<text x="30" y="148" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#CFC7E3">orientada a objetos, arquitectura MVC y patrones</text>
-<text x="30" y="170" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#CFC7E3">de diseño.</text>
+<text x="30" y="148" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#CFC7E3">orientada a objetos, arquitectura MVC y patrones de</text>
+<text x="30" y="170" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#CFC7E3">diseño.</text>
 <rect x="30" y="196" width="54" height="26" rx="13" fill="#FB923C" fill-opacity="0.14" stroke="#FB923C" stroke-opacity="0.6"/><text x="57" y="214" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" fill="#E9E5F5">Java</text><rect x="92" y="196" width="62" height="26" rx="13" fill="#FB923C" fill-opacity="0.14" stroke="#FB923C" stroke-opacity="0.6"/><text x="123" y="214" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" fill="#E9E5F5">MySQL</text><rect x="162" y="196" width="54" height="26" rx="13" fill="#FB923C" fill-opacity="0.14" stroke="#FB923C" stroke-opacity="0.6"/><text x="189" y="214" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" fill="#E9E5F5">JDBC</text>
 </svg>

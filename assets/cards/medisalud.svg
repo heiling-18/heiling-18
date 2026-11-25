@@ -14,7 +14,7 @@
 <text x="58" y="73" text-anchor="middle" font-size="28">🩺</text>
 <text x="104" y="58" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="800" fill="#E9E5F5">MediSalud</text>
 <text x="104" y="82" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" fill="#A78BFA">ver repositorio ↗</text>
-<text x="30" y="126" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#CFC7E3">Citas médicas con MVC, patrones de diseño,</text>
-<text x="30" y="148" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#CFC7E3">concurrencia y persistencia en MySQL.</text>
+<text x="30" y="126" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#CFC7E3">Citas médicas con MVC, patrones de diseño, concurrencia y</text>
+<text x="30" y="148" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#CFC7E3">persistencia en MySQL.</text>
 <rect x="30" y="196" width="54" height="26" rx="13" fill="#A78BFA" fill-opacity="0.14" stroke="#A78BFA" stroke-opacity="0.6"/><text x="57" y="214" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" fill="#E9E5F5">Java</text><rect x="92" y="196" width="62" height="26" rx="13" fill="#A78BFA" fill-opacity="0.14" stroke="#A78BFA" stroke-opacity="0.6"/><text x="123" y="214" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" fill="#E9E5F5">MySQL</text><rect x="162" y="196" width="70" height="26" rx="13" fill="#A78BFA" fill-opacity="0.14" stroke="#A78BFA" stroke-opacity="0.6"/><text x="197" y="214" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" fill="#E9E5F5">Docker</text>
 </svg>
