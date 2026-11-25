@@ -8,7 +8,7 @@
 <style>.blink{animation:b 1s steps(1) infinite}@keyframes b{0%,50%{opacity:1}51%,100%{opacity:0}}</style>
 <rect width="1200" height="170" rx="20" fill="#0B0716"/>
 <rect x="100" y="24" width="1000" height="2" fill="url(#l)"><animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/></rect>
-<text x="600" y="84" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="900" fill="url(#neon)">¿Construimos algo juntos? ✨</text>
+<text x="600" y="84" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="900" fill="url(#neon)">¿Construimos algo juntos?</text>
 <text x="560" y="124" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="16" fill="#8B7BA8"><tspan fill="#F472B6">$</tspan> exit 0 <tspan fill="#E9E5F5">— gracias por pasar</tspan></text>
 <rect x="694" y="110" width="10" height="20" fill="#F472B6" class="blink"/>
 <rect x="100" y="148" width="1000" height="2" fill="url(#l)"/>

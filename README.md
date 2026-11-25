@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2800&pause=800&color=F472B6&center=true&vCenter=true&width=760&height=50&lines=Transformo+ideas+en+sistemas+que+funcionan+%E2%9A%99%EF%B8%8F;APIs+REST+con+Java+%2B+Spring+Boot+%E2%98%95;Interfaces+con+Next.js+%2B+TypeScript+%E2%9A%A1;Automatizo+tareas+con+n8n+e+IA+%F0%9F%A4%96;Siempre+aprendiendo+algo+nuevo+%F0%9F%8C%B1" alt="Frases animadas" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2800&pause=800&color=F472B6&center=true&vCenter=true&width=760&height=50&lines=Transformo+ideas+en+sistemas+que+funcionan;APIs+REST+con+Java+y+Spring+Boot;Interfaces+con+Next.js+y+TypeScript;Automatizo+tareas+con+n8n+e+IA;Siempre+aprendiendo+algo+nuevo" alt="Frases animadas" />
 
 </div>
 
@@ -17,22 +17,23 @@
     </td>
     <td width="52%" valign="top">
 
-### 👋 ¡Hola! Soy Heiling
+### Hola, soy Heiling
 
 Desarrolladora **Full-Stack** con el corazón en el **Backend**. Me gusta entender el problema antes de escribir la primera línea, y después construir algo que funcione de verdad.
 
-- 🔭 **Ahora:** construyendo un sistema POS completo con su propia API.
-- 🌱 **Fortaleciendo:** arquitectura en capas, patrones de diseño y pruebas.
-- 🎯 **Busco:** mi primera gran oportunidad como desarrolladora.
-- 💬 **Háblame de:** Java, Spring Boot, bases de datos y automatización.
-- ⚡ **Superpoder:** aprender rápido y no soltar un bug hasta resolverlo.
+| | |
+|:--|:--|
+| **Ahora** | construyendo un sistema POS completo con su propia API |
+| **Fortaleciendo** | arquitectura en capas, patrones de diseño y pruebas |
+| **Busco** | mi primera gran oportunidad como desarrolladora |
+| **Háblame de** | Java, Spring Boot, bases de datos y automatización |
 
     </td>
   </tr>
 </table>
 
 <details>
-<summary><b>👀 Ver mi código fuente</b></summary>
+<summary><b>Ver mi código fuente</b></summary>
 <br/>
 
 ```java
@@ -56,15 +57,13 @@ public class HeilingController {
 
 </details>
 
----
+<br/>
 
-<h2 align="center">🗺️ Mi ruta en 2026</h2>
-
-<img width="100%" src="./assets/ruta.svg" alt="Mi ruta de aprendizaje en 2026" />
+<img width="100%" src="./assets/stack.svg" alt="Mi stack tecnológico: Java, Spring Boot, Node.js, Express, Python, Next.js, React, TypeScript, JavaScript, HTML, CSS, Tailwind, PostgreSQL, MySQL, Supabase, Git, GitHub, Docker, Vercel, Netlify y n8n" />
 
 ---
 
-<h2 align="center">🚀 Proyectos que me hacen sentir orgullosa</h2>
+<h2 align="center">Proyectos destacados</h2>
 
 <p align="center">
   <a href="https://github.com/heiling-18/Distribuidora-de-gestion"><img width="49%" src="./assets/cards/pos.svg" alt="DYM'S · Sistema POS" /></a>
@@ -76,12 +75,12 @@ public class HeilingController {
 </p>
 
 <p align="center">
-  <a href="https://distribuidora-de-gestion.vercel.app"><img src="https://img.shields.io/badge/▶_Probar_el_POS_en_vivo-F472B6?style=for-the-badge&logo=vercel&logoColor=white" alt="Probar el POS en vivo" /></a>
+  <a href="https://distribuidora-de-gestion.vercel.app"><img src="https://img.shields.io/badge/Probar_el_POS_en_vivo-F472B6?style=for-the-badge&logo=vercel&logoColor=white" alt="Probar el POS en vivo" /></a>
 </p>
 
 ---
 
-<h2 align="center">📊 Mi GitHub en números</h2>
+<h2 align="center">Mi GitHub en números</h2>
 
 <p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=heiling-18&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0B0716&title_color=F472B6&icon_color=FB923C&text_color=E9E5F5&ring_color=A78BFA&custom_title=Estad%C3%ADsticas" alt="Estadísticas" />
@@ -104,7 +103,7 @@ public class HeilingController {
 
 ---
 
-<h2 align="center">📫 Conecta conmigo</h2>
+<h2 align="center">Conecta conmigo</h2>
 
 <p align="center">
   <a href="https://moonlit-marshmallow-24aee0.netlify.app/"><img src="https://img.shields.io/badge/Mi_portafolio-0B0716?style=for-the-badge&logo=netlify&logoColor=F472B6" alt="Portafolio" /></a>

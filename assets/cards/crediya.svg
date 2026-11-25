@@ -11,9 +11,9 @@
   <rect x="-160" y="6" width="120" height="238" fill="url(#shine)" transform="skewX(-20)"><animate attributeName="x" values="-160;760;760" keyTimes="0;0.5;1" dur="5s" repeatCount="indefinite"/></rect>
 </g>
 <circle cx="58" cy="62" r="30" fill="#FB923C" fill-opacity="0.15" stroke="#FB923C" stroke-opacity="0.7"/>
-<text x="58" y="73" text-anchor="middle" font-size="28">💸</text>
+<text x="58" y="68" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="15" font-weight="700" fill="#FB923C">CY</text>
 <text x="104" y="58" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="800" fill="#E9E5F5">CrediYa</text>
-<text x="104" y="82" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" fill="#FB923C">ver repositorio ↗</text>
+<text x="104" y="82" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" fill="#FB923C">ver repositorio →</text>
 <text x="30" y="126" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#CFC7E3">Sistema de préstamos y cobranzas con programación</text>
 <text x="30" y="148" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#CFC7E3">orientada a objetos, arquitectura MVC y patrones de</text>
 <text x="30" y="170" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#CFC7E3">diseño.</text>

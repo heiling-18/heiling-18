@@ -11,9 +11,9 @@
   <rect x="-160" y="6" width="120" height="238" fill="url(#shine)" transform="skewX(-20)"><animate attributeName="x" values="-160;760;760" keyTimes="0;0.5;1" dur="5s" repeatCount="indefinite"/></rect>
 </g>
 <circle cx="58" cy="62" r="30" fill="#F472B6" fill-opacity="0.15" stroke="#F472B6" stroke-opacity="0.7"/>
-<text x="58" y="73" text-anchor="middle" font-size="28">🤖</text>
+<text x="58" y="68" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="15" font-weight="700" fill="#F472B6">TB</text>
 <text x="104" y="58" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="800" fill="#E9E5F5">TutorBot</text>
-<text x="104" y="82" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" fill="#F472B6">ver repositorio ↗</text>
+<text x="104" y="82" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" fill="#F472B6">ver repositorio →</text>
 <text x="30" y="126" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#CFC7E3">Bot de Telegram que conecta estudiantes con tutores y</text>
 <text x="30" y="148" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#CFC7E3">registra las tutorías en Google Sheets.</text>
 <rect x="30" y="196" width="46" height="26" rx="13" fill="#F472B6" fill-opacity="0.14" stroke="#F472B6" stroke-opacity="0.6"/><text x="53" y="214" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" fill="#E9E5F5">n8n</text><rect x="84" y="196" width="86" height="26" rx="13" fill="#F472B6" fill-opacity="0.14" stroke="#F472B6" stroke-opacity="0.6"/><text x="127" y="214" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" fill="#E9E5F5">Telegram</text><rect x="178" y="196" width="70" height="26" rx="13" fill="#F472B6" fill-opacity="0.14" stroke="#F472B6" stroke-opacity="0.6"/><text x="213" y="214" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" fill="#E9E5F5">Sheets</text>
