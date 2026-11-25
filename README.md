@@ -1,4 +1,4 @@
-<img width="100%" src="./assets/header.svg" alt="Heiling León — Desarrolladora Full-Stack" />
+<img width="100%" src="./assets/header.svg" alt="Heiling León — Desarrolladora Junior" />
 
 <div align="center">
 
@@ -19,7 +19,7 @@
 
 ### Hola, soy Heiling
 
-Desarrolladora **Full-Stack** con el corazón en el **Backend**. Me gusta entender el problema antes de escribir la primera línea, y después construir algo que funcione de verdad.
+Desarrolladora **Junior** con el corazón en el **Backend**. Me gusta entender el problema antes de escribir la primera línea, y después construir algo que funcione de verdad.
 
 | | |
 |:--|:--|
@@ -44,7 +44,7 @@ public class HeilingController {
     @GetMapping("/perfil")
     public Desarrolladora perfil() {
         return Desarrolladora.builder()
-            .rol("Full-Stack · Backend")
+            .rol("Desarrolladora Junior")
             .backend(List.of("Java", "Spring Boot", "Node.js", "Express"))
             .frontend(List.of("Next.js", "React", "TypeScript", "Tailwind"))
             .datos(List.of("PostgreSQL", "MySQL", "Supabase"))
