@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="250" viewBox="0 0 580 250" role="img" aria-label="CrediYa">
+<defs>
+  <linearGradient id="e" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FB923C"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0.3"/></linearGradient>
+  <radialGradient id="glow" cx="0.9" cy="0" r="0.8"><stop offset="0" stop-color="#FB923C" stop-opacity="0.35"/><stop offset="1" stop-color="#FB923C" stop-opacity="0"/></radialGradient>
+  <linearGradient id="shine" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.5" stop-color="#fff" stop-opacity="0.08"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <clipPath id="c"><rect x="6" y="6" width="568" height="238" rx="18"/></clipPath>
+</defs>
+<rect x="6" y="6" width="568" height="238" rx="18" fill="#140C24" stroke="url(#e)" stroke-width="2"/>
+<g clip-path="url(#c)">
+  <rect x="6" y="6" width="568" height="238" fill="url(#glow)"/>
+  <rect x="-160" y="6" width="120" height="238" fill="url(#shine)" transform="skewX(-20)"><animate attributeName="x" values="-160;760;760" keyTimes="0;0.5;1" dur="5s" repeatCount="indefinite"/></rect>
+</g>
+<circle cx="58" cy="62" r="30" fill="#FB923C" fill-opacity="0.15" stroke="#FB923C" stroke-opacity="0.7"/>
+<text x="58" y="73" text-anchor="middle" font-size="28">💸</text>
+<text x="104" y="58" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="800" fill="#E9E5F5">CrediYa</text>
+<text x="104" y="82" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" fill="#FB923C">ver repositorio ↗</text>
+<text x="30" y="126" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#CFC7E3">Sistema de préstamos y cobranzas con programación</text>
+<text x="30" y="148" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#CFC7E3">orientada a objetos, arquitectura MVC y patrones</text>
+<text x="30" y="170" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#CFC7E3">de diseño.</text>
+<rect x="30" y="196" width="54" height="26" rx="13" fill="#FB923C" fill-opacity="0.14" stroke="#FB923C" stroke-opacity="0.6"/><text x="57" y="214" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" fill="#E9E5F5">Java</text><rect x="92" y="196" width="62" height="26" rx="13" fill="#FB923C" fill-opacity="0.14" stroke="#FB923C" stroke-opacity="0.6"/><text x="123" y="214" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" fill="#E9E5F5">MySQL</text><rect x="162" y="196" width="54" height="26" rx="13" fill="#FB923C" fill-opacity="0.14" stroke="#FB923C" stroke-opacity="0.6"/><text x="189" y="214" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" fill="#E9E5F5">JDBC</text>
+</svg>

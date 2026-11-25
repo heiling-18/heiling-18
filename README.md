@@ -1,152 +1,100 @@
-<!-- ════════════════════════ HERO ════════════════════════ -->
-<img width="100%" src="./assets/hero.svg" alt="Heiling León — Desarrolladora Full-Stack" />
+<img width="100%" src="./assets/header.svg" alt="Heiling León — Desarrolladora Full-Stack" />
 
 <div align="center">
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=F472B6&center=true&vCenter=true&width=720&lines=Construyo+sistemas+que+usa+un+negocio+real+%F0%9F%8F%AA;APIs+REST+con+Java+%2B+Spring+Boot+%E2%98%95;Frontends+con+Next.js+%2B+TypeScript+%E2%9A%A1;Automatizo+con+n8n+e+IA+%F0%9F%A4%96" alt="Frases animadas" /></a>
-
-<p>
-  <a href="https://moonlit-marshmallow-24aee0.netlify.app/"><img src="https://img.shields.io/badge/Portafolio-1A1030?style=for-the-badge&logo=netlify&logoColor=F472B6" alt="Portafolio" /></a>
-  <a href="https://distribuidora-de-gestion.vercel.app"><img src="https://img.shields.io/badge/Demo_en_vivo-1A1030?style=for-the-badge&logo=vercel&logoColor=FB923C" alt="Demo en vivo" /></a>
-  <a href="https://github.com/heiling-18?tab=repositories"><img src="https://img.shields.io/badge/Repositorios-1A1030?style=for-the-badge&logo=github&logoColor=A78BFA" alt="Repositorios" /></a>
-  <img src="https://komarev.com/ghpvc/?username=heiling-18&style=for-the-badge&color=C026D3&label=VISITAS" alt="Visitas" />
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2800&pause=800&color=F472B6&center=true&vCenter=true&width=760&height=50&lines=Transformo+ideas+en+sistemas+que+funcionan+%E2%9A%99%EF%B8%8F;APIs+REST+con+Java+%2B+Spring+Boot+%E2%98%95;Interfaces+con+Next.js+%2B+TypeScript+%E2%9A%A1;Automatizo+tareas+con+n8n+e+IA+%F0%9F%A4%96;Siempre+aprendiendo+algo+nuevo+%F0%9F%8C%B1" alt="Frases animadas" />
 
 </div>
 
----
+<img width="100%" src="./assets/ticker.svg" alt="Tecnologías que uso" />
 
-## 💜 Sobre mí
+<br/>
 
-Soy **desarrolladora Full-Stack con foco en Backend**. Me gusta convertir problemas reales de un negocio en software que la gente usa todos los días: ventas, caja, inventario… y hasta galpones de gallinas 🐔.
+<table>
+  <tr>
+    <td width="48%" align="center" valign="middle">
+      <img width="100%" src="./assets/carnet.svg" alt="Carnet de desarrolladora" />
+    </td>
+    <td width="52%" valign="top">
+
+### 👋 ¡Hola! Soy Heiling
+
+Desarrolladora **Full-Stack** con el corazón en el **Backend**. Me gusta entender el problema antes de escribir la primera línea, y después construir algo que funcione de verdad.
+
+- 🔭 **Ahora:** construyendo un sistema POS completo con su propia API.
+- 🌱 **Fortaleciendo:** arquitectura en capas, patrones de diseño y pruebas.
+- 🎯 **Busco:** mi primera gran oportunidad como desarrolladora.
+- 💬 **Háblame de:** Java, Spring Boot, bases de datos y automatización.
+- ⚡ **Superpoder:** aprender rápido y no soltar un bug hasta resolverlo.
+
+    </td>
+  </tr>
+</table>
+
+<details>
+<summary><b>👀 Ver mi código fuente</b></summary>
+<br/>
 
 ```java
-public class Heiling extends Desarrolladora {
+@RestController
+@RequestMapping("/heiling")
+public class HeilingController {
 
-    String   rol       = "Full-Stack · Backend";
-    String[] backend   = { "Java", "Spring Boot", "Node.js", "Express", "Python" };
-    String[] frontend  = { "Next.js", "React", "TypeScript", "Tailwind" };
-    String[] datos     = { "PostgreSQL", "MySQL", "Supabase" };
-    String[] extra     = { "n8n", "Docker", "Git Flow", "Prompt testing" };
-
-    @Override
-    public String lema() {
-        return "Si lo puedo construir, lo puedo explicar.";
+    @GetMapping("/perfil")
+    public Desarrolladora perfil() {
+        return Desarrolladora.builder()
+            .rol("Full-Stack · Backend")
+            .backend(List.of("Java", "Spring Boot", "Node.js", "Express"))
+            .frontend(List.of("Next.js", "React", "TypeScript", "Tailwind"))
+            .datos(List.of("PostgreSQL", "MySQL", "Supabase"))
+            .extra(List.of("n8n", "Docker", "Git Flow", "IA"))
+            .cafe(Integer.MAX_VALUE)
+            .build();
     }
 }
 ```
 
-<table>
-  <tr>
-    <td width="33%" valign="top" align="center">
-      <h3>🏪</h3>
-      <b>Ahora mismo</b><br/><br/>
-      Un <b>sistema POS</b> para una distribuidora agropecuaria real, con su <b>API propia</b> en Node + PostgreSQL.
-    </td>
-    <td width="33%" valign="top" align="center">
-      <h3>🌱</h3>
-      <b>Fortaleciendo</b><br/><br/>
-      Arquitectura en capas, patrones de diseño y <b>APIs REST</b> bien documentadas.
-    </td>
-    <td width="33%" valign="top" align="center">
-      <h3>⚡</h3>
-      <b>Dato curioso</b><br/><br/>
-      Mi código maneja caja, IVA, inventario de huevos por tamaño y la producción diaria de galpones.
-    </td>
-  </tr>
-</table>
+</details>
 
 ---
 
-## 🧰 Mi caja de herramientas
+<h2 align="center">🗺️ Mi ruta en 2026</h2>
 
-<div align="center">
-
-| | |
-|:---:|:---|
-| **☕ Backend** | <img src="https://skillicons.dev/icons?i=java,spring,nodejs,express,python&theme=dark" alt="Backend" /> |
-| **⚡ Frontend** | <img src="https://skillicons.dev/icons?i=nextjs,react,ts,js,html,css,tailwind&theme=dark" alt="Frontend" /> |
-| **🐘 Datos** | <img src="https://skillicons.dev/icons?i=postgres,mysql,supabase&theme=dark" alt="Bases de datos" /> |
-| **🚀 DevOps** | <img src="https://skillicons.dev/icons?i=git,github,docker,vercel,netlify&theme=dark" alt="DevOps" /> |
-| **🤖 IA & Automatización** | <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n" /> <img src="https://img.shields.io/badge/Telegram_Bots-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /> <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini" /> <img src="https://img.shields.io/badge/Promptfoo-1A1030?style=for-the-badge" alt="Promptfoo" /> |
-
-</div>
+<img width="100%" src="./assets/ruta.svg" alt="Mi ruta de aprendizaje en 2026" />
 
 ---
 
-## 🚀 Lo que he construido
+<h2 align="center">🚀 Proyectos que me hacen sentir orgullosa</h2>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🏪 DYM'S · Sistema POS</h3>
-      <p>Punto de venta, caja con arqueo, inventario con alertas, reportes, galpones y venta de huevos para una <b>distribuidora real</b>. Roles y Row Level Security.</p>
-      <p>
-        <a href="https://github.com/heiling-18/Distribuidora-de-gestion"><img src="https://img.shields.io/badge/Repo-Frontend-F472B6?style=flat-square&logo=github" alt="Repo" /></a>
-        <a href="https://distribuidora-de-gestion.vercel.app"><img src="https://img.shields.io/badge/Demo-en_vivo-FB923C?style=flat-square&logo=vercel" alt="Demo" /></a>
-      </p>
-      <sub><code>Next.js</code> · <code>TypeScript</code> · <code>Supabase</code> · <code>Tailwind</code></sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🔌 DYM'S · API</h3>
-      <p>API REST propia que reemplaza a Supabase: ventas, caja, inventario y reportes, con validación y pruebas.</p>
-      <p>
-        <a href="https://github.com/heiling-18/Distribuidora-de-gestion-backend"><img src="https://img.shields.io/badge/Repo-Backend-A78BFA?style=flat-square&logo=github" alt="Repo" /></a>
-      </p>
-      <sub><code>Node.js</code> · <code>Express</code> · <code>PostgreSQL</code> · <code>Drizzle</code> · <code>Zod</code> · <code>Vitest</code></sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>💸 CrediYa</h3>
-      <p>Sistema de préstamos y cobranzas con POO, arquitectura MVC y patrones de diseño.</p>
-      <p>
-        <a href="https://github.com/heiling-18/crediya-app"><img src="https://img.shields.io/badge/Repo-CrediYa-C026D3?style=flat-square&logo=github" alt="Repo" /></a>
-      </p>
-      <sub><code>Java</code> · <code>MySQL</code> · <code>JDBC</code> · <code>MVC</code></sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🏫 Campusland Ops</h3>
-      <p>Gestión de salones, inventario por serial y préstamos de equipos.</p>
-      <p>
-        <a href="https://github.com/heiling-18/campusland-ops"><img src="https://img.shields.io/badge/Repo-Campusland_Ops-F472B6?style=flat-square&logo=github" alt="Repo" /></a>
-      </p>
-      <sub><code>Java</code> · <code>MySQL</code></sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🤖 TutorBot</h3>
-      <p>Bot de Telegram que conecta estudiantes con tutores y registra las tutorías en Google Sheets.</p>
-      <p>
-        <a href="https://github.com/heiling-18/tutorbot-n8n"><img src="https://img.shields.io/badge/Repo-TutorBot-FB923C?style=flat-square&logo=github" alt="Repo" /></a>
-      </p>
-      <sub><code>n8n</code> · <code>Telegram</code> · <code>Google Sheets</code></sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🩺 MediSalud</h3>
-      <p>Citas médicas con MVC, patrones de diseño, concurrencia y persistencia en MySQL.</p>
-      <p>
-        <a href="https://github.com/heiling-18/SistemaMediSaludFinal"><img src="https://img.shields.io/badge/Repo-MediSalud-A78BFA?style=flat-square&logo=github" alt="Repo" /></a>
-      </p>
-      <sub><code>Java</code> · <code>MySQL</code> · <code>Docker</code></sub>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/heiling-18/Distribuidora-de-gestion"><img width="49%" src="./assets/cards/pos.svg" alt="DYM'S · Sistema POS" /></a>
+  <a href="https://github.com/heiling-18/Distribuidora-de-gestion-backend"><img width="49%" src="./assets/cards/api.svg" alt="DYM'S · API" /></a>
+  <a href="https://github.com/heiling-18/crediya-app"><img width="49%" src="./assets/cards/crediya.svg" alt="CrediYa" /></a>
+  <a href="https://github.com/heiling-18/campusland-ops"><img width="49%" src="./assets/cards/campusland.svg" alt="Campusland Ops" /></a>
+  <a href="https://github.com/heiling-18/tutorbot-n8n"><img width="49%" src="./assets/cards/tutorbot.svg" alt="TutorBot" /></a>
+  <a href="https://github.com/heiling-18/SistemaMediSaludFinal"><img width="49%" src="./assets/cards/medisalud.svg" alt="MediSalud" /></a>
+</p>
+
+<p align="center">
+  <a href="https://distribuidora-de-gestion.vercel.app"><img src="https://img.shields.io/badge/▶_Probar_el_POS_en_vivo-F472B6?style=for-the-badge&logo=vercel&logoColor=white" alt="Probar el POS en vivo" /></a>
+</p>
 
 ---
 
-## 📈 Mi GitHub en números
+<h2 align="center">📊 Mi GitHub en números</h2>
 
-<div align="center">
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=heiling-18&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0B0716&title_color=F472B6&icon_color=FB923C&text_color=E9E5F5&ring_color=A78BFA&custom_title=Estad%C3%ADsticas" alt="Estadísticas" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=heiling-18&layout=compact&hide_border=true&bg_color=0B0716&title_color=F472B6&text_color=E9E5F5&custom_title=Lenguajes%20que%20m%C3%A1s%20uso" alt="Lenguajes que más uso" />
+</p>
 
-<img src="https://streak-stats.demolab.com/?user=heiling-18&hide_border=true&background=0B0716&ring=F472B6&fire=FB923C&currStreakNum=F472B6&sideNums=E9E5F5&currStreakLabel=F472B6&sideLabels=C4B5FD&dates=7C6B9C&stroke=2A1A45" width="80%" alt="Racha de contribuciones" />
+<p align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=heiling-18&bg_color=0B0716&color=C4B5FD&line=F472B6&point=FB923C&area=true&area_color=C026D3&hide_border=true&custom_title=Actividad%20de%20los%20%C3%BAltimos%20d%C3%ADas" alt="Gráfica de actividad" />
+</p>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=heiling-18&bg_color=0B0716&color=C4B5FD&line=F472B6&point=FB923C&area=true&area_color=C026D3&hide_border=true&custom_title=Actividad%20reciente" width="100%" alt="Gráfica de actividad" />
-
-</div>
-
-### 🐍 La culebrita que se come mis contribuciones
+<p align="center">
+  <img width="70%" src="https://streak-stats.demolab.com/?user=heiling-18&hide_border=true&background=0B0716&ring=F472B6&fire=FB923C&currStreakNum=F472B6&sideNums=E9E5F5&currStreakLabel=F472B6&sideLabels=C4B5FD&dates=8B7BA8&stroke=2A1A45" alt="Racha de contribuciones" />
+</p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/heiling-18/heiling-18/output/snake-dark.svg" />
@@ -155,5 +103,13 @@ public class Heiling extends Desarrolladora {
 </picture>
 
 ---
+
+<h2 align="center">📫 Conecta conmigo</h2>
+
+<p align="center">
+  <a href="https://moonlit-marshmallow-24aee0.netlify.app/"><img src="https://img.shields.io/badge/Mi_portafolio-0B0716?style=for-the-badge&logo=netlify&logoColor=F472B6" alt="Portafolio" /></a>
+  <a href="https://github.com/heiling-18?tab=repositories"><img src="https://img.shields.io/badge/Todos_mis_repos-0B0716?style=for-the-badge&logo=github&logoColor=A78BFA" alt="Repositorios" /></a>
+  <img src="https://komarev.com/ghpvc/?username=heiling-18&style=for-the-badge&color=C026D3&label=VISITAS" alt="Visitas" />
+</p>
 
 <img width="100%" src="./assets/footer.svg" alt="Gracias por pasar" />

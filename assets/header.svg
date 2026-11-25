@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-label="Heiling León — Desarrolladora Full-Stack">
+<defs>
+  
+  <linearGradient id="neon" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="700" y2="0" spreadMethod="reflect">
+    <stop offset="0" stop-color="#A78BFA"/><stop offset="0.5" stop-color="#F472B6"/><stop offset="1" stop-color="#FB923C"/>
+    <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1400 0" dur="5s" repeatCount="indefinite"/>
+  </linearGradient>
+  <radialGradient id="core" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#F472B6" stop-opacity="0.55"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0"/></radialGradient>
+  <radialGradient id="g1" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#7C3AED" stop-opacity="0.45"/><stop offset="1" stop-color="#7C3AED" stop-opacity="0"/></radialGradient>
+  <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#A78BFA"/><stop offset="1" stop-color="#FB923C"/></linearGradient>
+  <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#fff" fill-opacity="0.06"/></pattern>
+  <filter id="blur"><feGaussianBlur stdDeviation="7"/></filter>
+</defs>
+<style>.blink{animation:b 1s steps(1) infinite}@keyframes b{0%,50%{opacity:1}51%,100%{opacity:0}}</style>
+<rect width="1200" height="460" rx="24" fill="#0B0716"/>
+<rect width="1200" height="460" rx="24" fill="url(#dots)"/>
+<circle cx="300" cy="330" r="300" fill="url(#g1)"><animate attributeName="r" values="300;340;300" dur="9s" repeatCount="indefinite"/></circle>
+
+<!-- ventana de terminal -->
+<rect x="40" y="40" width="680" height="380" rx="18" fill="#140C24" fill-opacity="0.85" stroke="url(#ring)" stroke-opacity="0.7"/>
+<rect x="40" y="40" width="680" height="40" rx="18" fill="#1C1130"/>
+<rect x="40" y="62" width="680" height="18" fill="#1C1130"/>
+<circle cx="68" cy="60" r="6" fill="#FF5F57"/><circle cx="88" cy="60" r="6" fill="#FEBC2E"/><circle cx="108" cy="60" r="6" fill="#28C840"/>
+<text x="380" y="65" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="13" fill="#8B7BA8">heiling@dev: ~</text>
+<text x="70" y="118" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="16" opacity="0">
+      <tspan fill="#F472B6">$</tspan> <tspan fill="#E9E5F5">ssh heiling@github.com</tspan>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.033;0.058;0.92;1" dur="12s" repeatCount="indefinite"/>
+    </text>
+<text x="70" y="148" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="16" opacity="0">
+      <tspan fill="#F472B6">›</tspan> <tspan fill="#A78BFA">cargando stack: java · spring · next.js · node … ✓</tspan>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.092;0.117;0.92;1" dur="12s" repeatCount="indefinite"/>
+    </text>
+<text x="70" y="178" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="16" opacity="0">
+      <tspan fill="#F472B6">›</tspan> <tspan fill="#F472B6">compilando ideas …………………… ✓</tspan>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.150;0.175;0.92;1" dur="12s" repeatCount="indefinite"/>
+    </text>
+<text x="70" y="208" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="16" opacity="0">
+      <tspan fill="#F472B6">›</tspan> <tspan fill="#FB923C">estado: construyendo 🚀</tspan>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.208;0.233;0.92;1" dur="12s" repeatCount="indefinite"/>
+    </text>
+
+<!-- nombre con efecto glitch -->
+<g font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="74" font-weight="900" letter-spacing="-2">
+  <text x="68" y="330" fill="#22D3EE" opacity="0.55">HEILING LEÓN
+    <animate attributeName="x" values="68;64;70;68;68" keyTimes="0;0.02;0.04;0.06;1" dur="4s" repeatCount="indefinite"/></text>
+  <text x="68" y="330" fill="#F472B6" opacity="0.55">HEILING LEÓN
+    <animate attributeName="x" values="68;72;66;68;68" keyTimes="0;0.02;0.04;0.06;1" dur="4s" repeatCount="indefinite"/></text>
+  <text x="68" y="330" fill="url(#neon)">HEILING LEÓN</text>
+</g>
+<text x="70" y="378" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="20" fill="#E9E5F5">Desarrolladora Full-Stack <tspan fill="#F472B6">/</tspan> Backend Java</text>
+<rect x="530" y="361" width="11" height="22" fill="#F472B6" class="blink"/>
+
+<!-- órbitas con monograma -->
+<circle cx="960" cy="240" r="170" fill="url(#core)"/>
+<circle cx="960" cy="240" r="118" fill="none" stroke="#A78BFA" stroke-opacity="0.35" stroke-dasharray="4 8"/>
+<circle cx="960" cy="240" r="158" fill="none" stroke="#F472B6" stroke-opacity="0.25"/>
+<g transform="rotate(0 960 240)"><g>
+      <circle cx="1078" cy="240" r="7" fill="#A78BFA"/>
+      <circle cx="1078" cy="240" r="16.8" fill="#A78BFA" opacity="0.25"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 960 240" to="360 960 240" dur="14s" repeatCount="indefinite"/>
+    </g></g>
+<g transform="rotate(180 960 240)"><g>
+      <circle cx="1078" cy="240" r="5" fill="#FB923C"/>
+      <circle cx="1078" cy="240" r="12" fill="#FB923C" opacity="0.25"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 960 240" to="360 960 240" dur="14s" repeatCount="indefinite"/>
+    </g></g>
+<g transform="rotate(60 960 240)"><g>
+      <circle cx="1118" cy="240" r="8" fill="#F472B6"/>
+      <circle cx="1118" cy="240" r="19.2" fill="#F472B6" opacity="0.25"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 960 240" to="-360 960 240" dur="22s" repeatCount="indefinite"/>
+    </g></g>
+<g transform="rotate(240 960 240)"><g>
+      <circle cx="1118" cy="240" r="5" fill="#22D3EE"/>
+      <circle cx="1118" cy="240" r="12" fill="#22D3EE" opacity="0.25"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 960 240" to="-360 960 240" dur="22s" repeatCount="indefinite"/>
+    </g></g>
+<circle cx="960" cy="240" r="72" fill="#140C24" stroke="url(#ring)" stroke-width="3"/>
+<circle cx="960" cy="240" r="72" fill="none" stroke="url(#ring)" stroke-width="10" opacity="0.3" filter="url(#blur)">
+  <animate attributeName="opacity" values="0.15;0.5;0.15" dur="3s" repeatCount="indefinite"/></circle>
+<text x="960" y="258" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="50" font-weight="900" fill="url(#neon)">HL</text>
+<g opacity="0.9"><rect x="812.6" y="47" width="64.8" height="28" rx="14" fill="#140C24" stroke="#A78BFA" stroke-opacity="0.7"/>
+      <text x="845" y="66" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="14" fill="#E9E5F5">Java</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="4s" repeatCount="indefinite"/></g>
+<g opacity="0.9"><rect x="1035.4" y="93" width="129.2" height="28" rx="14" fill="#140C24" stroke="#F472B6" stroke-opacity="0.7"/>
+      <text x="1100" y="112" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="14" fill="#E9E5F5">Spring Boot</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="5s" repeatCount="indefinite"/></g>
+<g opacity="0.9"><rect x="1063.8" y="363" width="92.39999999999999" height="28" rx="14" fill="#140C24" stroke="#FB923C" stroke-opacity="0.7"/>
+      <text x="1110" y="382" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="14" fill="#E9E5F5">Next.js</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="6s" repeatCount="indefinite"/></g>
+<g opacity="0.9"><rect x="752" y="403" width="120" height="28" rx="14" fill="#140C24" stroke="#22D3EE" stroke-opacity="0.7"/>
+      <text x="812" y="422" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="14" fill="#E9E5F5">PostgreSQL</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="7s" repeatCount="indefinite"/></g>
+<g opacity="0.9"><rect x="762.2" y="133" width="55.599999999999994" height="28" rx="14" fill="#140C24" stroke="#A78BFA" stroke-opacity="0.7"/>
+      <text x="790" y="152" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="14" fill="#E9E5F5">n8n</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="8s" repeatCount="indefinite"/></g>
+</svg>

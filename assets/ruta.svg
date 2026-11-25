@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Mi ruta de aprendizaje en 2026">
+<defs>
+  <linearGradient id="line" x1="0" x2="1"><stop offset="0" stop-color="#A78BFA"/><stop offset="0.5" stop-color="#F472B6"/><stop offset="1" stop-color="#FB923C"/></linearGradient>
+</defs>
+<rect width="1200" height="300" rx="20" fill="#0B0716"/>
+<text x="40" y="44" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="14" fill="#8B7BA8">// 2026 · de cero a full-stack</text>
+<line x1="90" y1="150" x2="1110" y2="150" stroke="#2A1A45" stroke-width="6" stroke-linecap="round"/>
+<line x1="90" y1="150" x2="1110" y2="150" stroke="url(#line)" stroke-width="6" stroke-linecap="round" stroke-dasharray="1020" stroke-dashoffset="1020">
+  <animate attributeName="stroke-dashoffset" values="1020;0;0;1020" keyTimes="0;0.38;0.93;1" dur="10s" repeatCount="indefinite"/>
+</line>
+<g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.030;0.070;0.93;1" dur="10s" repeatCount="indefinite"/>
+      <line x1="90" y1="150" x2="90" y2="116" stroke="#A78BFA" stroke-opacity="0.6"/>
+      <circle cx="90" cy="150" r="16" fill="#140C24" stroke="#A78BFA" stroke-width="3"/>
+      <circle cx="90" cy="150" r="5" fill="#A78BFA"/>
+      <text x="90" y="62" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" fill="#A78BFA" letter-spacing="1">FEB</text>
+      <text x="90" y="86" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="700" fill="#E9E5F5">🐍 Python</text>
+      <text x="90" y="106" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#8B7BA8">y Git Flow</text>
+    </g>
+<g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.075;0.115;0.93;1" dur="10s" repeatCount="indefinite"/>
+      <line x1="235.71428571428572" y1="150" x2="235.71428571428572" y2="184" stroke="#F472B6" stroke-opacity="0.6"/>
+      <circle cx="235.71428571428572" cy="150" r="16" fill="#140C24" stroke="#F472B6" stroke-width="3"/>
+      <circle cx="235.71428571428572" cy="150" r="5" fill="#F472B6"/>
+      <text x="235.71428571428572" y="214" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" fill="#F472B6" letter-spacing="1">MAR–MAY</text>
+      <text x="235.71428571428572" y="240" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="700" fill="#E9E5F5">🌐 HTML · CSS · JS</text>
+      <text x="235.71428571428572" y="260" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#8B7BA8">primeras webs</text>
+    </g>
+<g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.120;0.160;0.93;1" dur="10s" repeatCount="indefinite"/>
+      <line x1="381.42857142857144" y1="150" x2="381.42857142857144" y2="116" stroke="#FB923C" stroke-opacity="0.6"/>
+      <circle cx="381.42857142857144" cy="150" r="16" fill="#140C24" stroke="#FB923C" stroke-width="3"/>
+      <circle cx="381.42857142857144" cy="150" r="5" fill="#FB923C"/>
+      <text x="381.42857142857144" y="62" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" fill="#FB923C" letter-spacing="1">JUN</text>
+      <text x="381.42857142857144" y="86" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="700" fill="#E9E5F5">🧪 IA</text>
+      <text x="381.42857142857144" y="106" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#8B7BA8">Promptfoo + Gemini</text>
+    </g>
+<g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.165;0.205;0.93;1" dur="10s" repeatCount="indefinite"/>
+      <line x1="527.1428571428571" y1="150" x2="527.1428571428571" y2="184" stroke="#A78BFA" stroke-opacity="0.6"/>
+      <circle cx="527.1428571428571" cy="150" r="16" fill="#140C24" stroke="#A78BFA" stroke-width="3"/>
+      <circle cx="527.1428571428571" cy="150" r="5" fill="#A78BFA"/>
+      <text x="527.1428571428571" y="214" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" fill="#A78BFA" letter-spacing="1">JUL</text>
+      <text x="527.1428571428571" y="240" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="700" fill="#E9E5F5">🤖 n8n + Docker</text>
+      <text x="527.1428571428571" y="260" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#8B7BA8">automatización</text>
+    </g>
+<g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.210;0.250;0.93;1" dur="10s" repeatCount="indefinite"/>
+      <line x1="672.8571428571429" y1="150" x2="672.8571428571429" y2="116" stroke="#F472B6" stroke-opacity="0.6"/>
+      <circle cx="672.8571428571429" cy="150" r="16" fill="#140C24" stroke="#F472B6" stroke-width="3"/>
+      <circle cx="672.8571428571429" cy="150" r="5" fill="#F472B6"/>
+      <text x="672.8571428571429" y="62" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" fill="#F472B6" letter-spacing="1">JUL–AGO</text>
+      <text x="672.8571428571429" y="86" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="700" fill="#E9E5F5">🐬 MySQL</text>
+      <text x="672.8571428571429" y="106" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#8B7BA8">triggers y vistas</text>
+    </g>
+<g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.255;0.295;0.93;1" dur="10s" repeatCount="indefinite"/>
+      <line x1="818.5714285714287" y1="150" x2="818.5714285714287" y2="184" stroke="#FB923C" stroke-opacity="0.6"/>
+      <circle cx="818.5714285714287" cy="150" r="16" fill="#140C24" stroke="#FB923C" stroke-width="3"/>
+      <circle cx="818.5714285714287" cy="150" r="5" fill="#FB923C"/>
+      <text x="818.5714285714287" y="214" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" fill="#FB923C" letter-spacing="1">SEP</text>
+      <text x="818.5714285714287" y="240" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="700" fill="#E9E5F5">☕ Java</text>
+      <text x="818.5714285714287" y="260" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#8B7BA8">POO y JDBC</text>
+    </g>
+<g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.300;0.340;0.93;1" dur="10s" repeatCount="indefinite"/>
+      <line x1="964.2857142857143" y1="150" x2="964.2857142857143" y2="116" stroke="#A78BFA" stroke-opacity="0.6"/>
+      <circle cx="964.2857142857143" cy="150" r="16" fill="#140C24" stroke="#A78BFA" stroke-width="3"/>
+      <circle cx="964.2857142857143" cy="150" r="5" fill="#A78BFA"/>
+      <text x="964.2857142857143" y="62" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" fill="#A78BFA" letter-spacing="1">OCT</text>
+      <text x="964.2857142857143" y="86" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="700" fill="#E9E5F5">🍃 Spring Boot</text>
+      <text x="964.2857142857143" y="106" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#8B7BA8">patrones de diseño</text>
+    </g>
+<g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.345;0.385;0.93;1" dur="10s" repeatCount="indefinite"/>
+      <line x1="1110" y1="150" x2="1110" y2="184" stroke="#F472B6" stroke-opacity="0.6"/>
+      <circle cx="1110" cy="150" r="16" fill="#140C24" stroke="#F472B6" stroke-width="3"/>
+      <circle cx="1110" cy="150" r="5" fill="#F472B6"/>
+      <text x="1110" y="214" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" fill="#F472B6" letter-spacing="1">NOV</text>
+      <text x="1110" y="240" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="700" fill="#E9E5F5">🚀 Node + Postgres</text>
+      <text x="1110" y="260" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#8B7BA8">mi propia API</text>
+    </g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.4;0.45;0.93;1" dur="10s" repeatCount="indefinite"/>
+  <text x="1160" y="278" text-anchor="end" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="14" fill="#F472B6">y sigo subiendo ↗</text></g>
+</svg>
