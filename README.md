@@ -75,7 +75,7 @@ public class HeilingController {
 </p>
 
 <p align="center">
-  <a href="https://distribuidora-de-gestion.vercel.app"><img src="https://img.shields.io/badge/Probar_el_POS_en_vivo-F472B6?style=for-the-badge&logo=vercel&logoColor=white" alt="Probar el POS en vivo" /></a>
+  <a href="https://distribuidora-de-gestion.vercel.app"><img src="./assets/boton-pos.svg" alt="Probar el POS en vivo" /></a>
 </p>
 
 ---
@@ -106,8 +106,8 @@ public class HeilingController {
 <h2 align="center">Conecta conmigo</h2>
 
 <p align="center">
-  <a href="https://moonlit-marshmallow-24aee0.netlify.app/"><img src="https://img.shields.io/badge/Mi_portafolio-0B0716?style=for-the-badge&logo=netlify&logoColor=F472B6" alt="Portafolio" /></a>
-  <a href="https://github.com/heiling-18?tab=repositories"><img src="https://img.shields.io/badge/Todos_mis_repos-0B0716?style=for-the-badge&logo=github&logoColor=A78BFA" alt="Repositorios" /></a>
+  <a href="https://moonlit-marshmallow-24aee0.netlify.app/"><img src="./assets/boton-portafolio.svg" alt="Mi portafolio" /></a>
+  <a href="https://github.com/heiling-18?tab=repositories"><img src="./assets/boton-repos.svg" alt="Todos mis repositorios" /></a>
   <img src="https://komarev.com/ghpvc/?username=heiling-18&style=for-the-badge&color=C026D3&label=VISITAS" alt="Visitas" />
 </p>
 
